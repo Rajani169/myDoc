@@ -1,0 +1,55 @@
+#main-doc{
+  font-family: cambria;
+  font-size: 17px;
+  margin: 5px 5px 5px 5px;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+}
+header{
+  align-items: center;
+  font-size: 30px;
+}
+
+#navbar ul{
+  height:88%;
+  overflow-y:auto;
+  overflow-x:hidden;
+}
+#navbar li{
+  list-style-type: none;
+  color: #4d4e53;
+  border:1px solid;
+  border-bottom-width:0px;
+  padding:8px;
+  padding-left:45px;
+  position:relative;
+ left:-50px;
+  width:100%;
+  }
+#documentation{
+  margin-left: 5%;
+}
+#code{
+  background-color: #ddd;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+@media only screen and (max-width: 400px) {
+  #main-doc{
+    margin-left:-10px;
+  }
+  code{
+    margin-left:-20px;
+    width:100%;
+    padding:15px;
+    padding-left:10px;
+    padding-right:45px;
+    min-width:233px;
+  }
+}
